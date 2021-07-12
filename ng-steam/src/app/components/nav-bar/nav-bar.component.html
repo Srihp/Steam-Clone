@@ -1,1 +1,15 @@
-<p>nav-bar works!</p>
+<div class = "search-container">
+    <form class = "search-form" #form = "ngForm" (ngSubmit) = "onSubmit(form)">
+        <span class = "logo" routerLink = '/'> Steam-Clone </span>
+        <input
+            class = "search-input"
+            name = "search"
+            ngModel
+            placeholder="Search your game"
+        />
+
+        <button class = "search-button">
+            Search
+        </button>
+    </form>
+</div>
