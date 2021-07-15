@@ -33,7 +33,7 @@
   }
 
 .sort-label{
-    color: #000;
+    color: black;
 }
 
 .games {
@@ -51,7 +51,7 @@
   height: 330px;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #202020;
+  background-color: black;
   box-shadow: 4px 3px 8px 0px rgb(200 152 44 / 22%);
   transition-duration: 0.3s;
   cursor: pointer;
@@ -62,10 +62,10 @@
   }
 
   &-thumb-container {
-    background-color: #000;
+    background-color: black;
     position: relative;
     height: 172px;
-    color: #fff;
+    color: white;
     text-align: center;
   }
 
@@ -87,7 +87,7 @@
   }
 
   &-name {
-    color: #fff;
+    color: white;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 20px;
