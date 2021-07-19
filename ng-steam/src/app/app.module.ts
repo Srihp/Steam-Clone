@@ -16,12 +16,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpErrorsInterceptor } from './interceptor/http-errors.interceptor';
-import { HttpHeadersInterceptor } from './interceptor/http-headers.interceptor'
+import { HttpHeadersInterceptor } from './interceptor/http-headers.interceptor';
+import { DetailsComponent } from './components/details/details.component'
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
