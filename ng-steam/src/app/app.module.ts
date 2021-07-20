@@ -17,13 +17,15 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpErrorsInterceptor } from './interceptor/http-errors.interceptor';
 import { HttpHeadersInterceptor } from './interceptor/http-headers.interceptor';
-import { DetailsComponent } from './components/details/details.component'
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './components/game-tabs/game-tabs.component'
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
     BrowserModule,
